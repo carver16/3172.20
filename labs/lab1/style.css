@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+}
+
+.head{
+    background-color: red;
+}
+.title{
+    text-align: center;
+}
+p{
+    font-style: italic;
+    
+}

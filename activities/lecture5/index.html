@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>L5V1 Example</title>
+	</head>
+	<body>
+		<script>
+			function calculate(a,b,c){
+			//	let a,b,c;
+				if (c=='add'){
+					let addition = a + b;
+					console.log(addition);
+					return(addition);
+				} else if (c=='subtract'){
+					let subtract = a - b;
+					console.log(subtract);
+					return(subtract);
+				} else if (c=='multiply') {
+					let multiply = a * b;
+					console.log(multiply);
+					return(multiply);
+				} else if (c=='divide'){
+					let divide = a / b;
+					console.log(divide);
+				}else{
+					let error = "not valid input";
+					console.log(error);
+				}
+			}
+				function add(a,b){
+					let result = a + b;
+					console.log(result);
+					return(result);
+				}
+				add(2,3);
+				
+				calculate(10,2,"subtract");
+		</script>
+	</body>
+</html>

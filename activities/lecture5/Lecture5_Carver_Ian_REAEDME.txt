@@ -5,3 +5,10 @@ Ian Carver
 B00888694
 iancarver@dal.ca 
 
+Took the code given and used the same logic, I just added a another else if so the function could substract the two varibles passed into it
+
+FileZilla Link:
+https://web.cs.dal.ca/~carver/csci3172/lecture5/
+
+gitlab clone link:
+https://git.cs.dal.ca/carver/csci3172.git

@@ -8,4 +8,6 @@ FileZilla Link:
 https://web.cs.dal.ca/~carver/csci3172/Lecture8/
 
 GitLab Link for Clone:
+https://git.cs.dal.ca/carver/csci3172.git
+
 

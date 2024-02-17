@@ -73,7 +73,7 @@ submit.addEventListener("click",validate);
 function validate(e){
 e.preventDefault();
 
-    let firstNameRegEx = /^[a-zA-Z]+$/;
+    let firstNameRegEx = /^[a-zA-Z\s]+$/;
     let lastNameRegEx = /^[a-zA-Z'-]+$/;
     let emailRegEx = /^[a-zA-Z0-9.]+@[a-zA-Z]+[a-zA-Z.]+$/;
     let passwordRegEx = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;

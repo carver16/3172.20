@@ -75,7 +75,7 @@ e.preventDefault();
 
     let firstNameRegEx = /^[a-zA-Z]+$/;
     let lastNameRegEx = /^[a-zA-Z'-]+$/;
-    let emailRegEx = /^[a-zA-Z0-9.]+@[a-zA-Z]+\.[a-zA-Z]{2,7}$/;
+    let emailRegEx = /^[a-zA-Z0-9.]+@[a-zA-Z]+[a-zA-Z.]+$/;
     let passwordRegEx = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
 
     let firstNameValue = document.getElementById('firstName').value;

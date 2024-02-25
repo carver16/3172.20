@@ -80,9 +80,9 @@
 
         function processNumbers() {
             let num = document.getElementById('num').value;
-            //got from website look at README/////
+            //got from website look at README///////////////////////////////////
             const numsArr = num.split(',').map(num => parseInt(num.trim(), 10));
-            ///////////////
+            ///////////////////////////////////////////////////////////////////
             const result = forEachCalc(numsArr);
             const result1 = forCalc(numsArr);
             const result2 = mapCalc(numsArr);

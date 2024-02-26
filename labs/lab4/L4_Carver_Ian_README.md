@@ -11,6 +11,8 @@ GitLab Link:
 https://git.cs.dal.ca/carver/csci3172.git
 
 References:
+ternary operator found here:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 
 isComp Method got from here:
 https://codetofun.com/js/interview-programs/composite-number/
